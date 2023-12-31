@@ -1,4 +1,4 @@
-1. OpenZeppelin - Contracts Wizard
+**1. OpenZeppelin - Contracts Wizard**
 https://docs.openzeppelin.com/contracts/4.x/wizard
 
 Select ERC721
@@ -13,7 +13,8 @@ Mintable + Auto Increment Ids
 Pauseable
 Enumerable
 Click on 'Open in Remix'
-2. Remix - Ethereum IDE
+
+**2. Remix - Ethereum IDE**
 https://remix.ethereum.org/
 
 Divide the code up into sections using comments
@@ -28,7 +29,8 @@ Add in MINT_PRICE in ether. Add corresponding require statement in `safeMint()
 Add MAX_SUPPLY for total number of tokens. Add corresponding require statement in safeMint()
 In the constructor, call _tokenIdCounter.increment() to start the token at 1
 Add in withdraw() function
-3. Remix - Deploy
+
+**3. Remix - Deploy**
 Check compiler version at the type of the Solidity File: pragma solidity ^0.8.4;
 
 Select the compiler from the left hand side of the page and select the corresponding compiler version - 0.8.4 or whatever the newest version is out.
@@ -39,7 +41,7 @@ Select the Deploy & Run Transactions tab. Environment: JavaScript VM Account: Ma
 
 View the deployed contract and examine transactions.
 
-4. Deploy - Testnet or Mainnet
+**4. Deploy - Testnet or Mainnet**
 Follow along with this tutorial:
 
 https://youtu.be/0cIkcFspdaE
